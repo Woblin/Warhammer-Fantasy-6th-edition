@@ -400,7 +400,7 @@
         <infoLink id="5712-8ce0-576b-8256" name="Quell Animosity" hidden="false" targetId="0f2a-c100-8eb9-7490" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b5dc-2c26-267f-cbf1" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="b5dc-2c26-267f-cbf1" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="2966-3782-7f7c-86cf" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="e924-8c4c-2aee-6bde" name="Orc" hidden="false" targetId="d4a7-5999-8207-4efe" primary="false"/>
       </categoryLinks>
@@ -447,7 +447,7 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3a8e-394a-71b4-16af" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3a8e-394a-71b4-16af" name="Magic items" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c409-50a6-4f91-7f66" type="max"/>
           </constraints>
@@ -615,7 +615,7 @@
         <infoLink id="d790-b7d7-2289-a0f9" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e72e-7911-2a23-1203" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="e72e-7911-2a23-1203" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="8129-3ee5-7a23-21d9" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="17f5-9c40-95bb-d965" name="Orc" hidden="false" targetId="d4a7-5999-8207-4efe" primary="false"/>
       </categoryLinks>
@@ -788,7 +788,7 @@
         <infoLink id="9e28-0878-a1bf-6ece" name="Warpaint" hidden="false" targetId="e8d6-cd4a-7353-54a7" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ce93-1e41-db6e-f9e6" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="ce93-1e41-db6e-f9e6" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="897c-b584-3eaf-af3e" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="9580-cb1a-1762-b344" name="Orc" hidden="false" targetId="d4a7-5999-8207-4efe" primary="false"/>
       </categoryLinks>
@@ -930,7 +930,7 @@
         <infoLink id="cc6f-ffc3-c6b5-902f" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e6b9-d7ad-c1ba-6af0" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="e6b9-d7ad-c1ba-6af0" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="75e3-1b05-8910-e2c0" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1073,7 +1073,7 @@
         <infoLink id="7616-5881-040c-02e0" name="Warpaint" hidden="false" targetId="e8d6-cd4a-7353-54a7" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="68f8-5848-b65d-3610" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="68f8-5848-b65d-3610" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="69b3-c132-0807-9e87" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
         <categoryLink id="31fb-0246-51bf-17e6" name="Orc" hidden="false" targetId="d4a7-5999-8207-4efe" primary="false"/>
       </categoryLinks>
@@ -1200,7 +1200,7 @@
         <infoLink id="26c7-ef7d-9930-e5bd" name="Fear Elves" hidden="false" targetId="b9cb-9cdd-44c3-ba52" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2303-cc83-e394-c7e8" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="2303-cc83-e394-c7e8" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="a344-7ed7-9cd9-9e8d" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1358,7 +1358,7 @@
         <infoLink id="aefc-c5f9-1598-21c4" name="Hate Dwarfs" hidden="false" targetId="9d06-d305-182a-2eb9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4b23-45a7-bdd4-abfd" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="4b23-45a7-bdd4-abfd" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="2ce8-0788-9d80-5add" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1472,7 +1472,7 @@
         <infoLink id="465b-615f-bc8a-e96b" name="Fear Elves" hidden="false" targetId="b9cb-9cdd-44c3-ba52" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5338-ee89-aff3-79d2" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="5338-ee89-aff3-79d2" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="fb91-0556-8425-8db2" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1603,7 +1603,7 @@
         <infoLink id="f3ca-5a76-4d1a-8b9e" name="Hate Dwarfs" hidden="false" targetId="9d06-d305-182a-2eb9" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f396-c6aa-3ce5-9b5f" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="f396-c6aa-3ce5-9b5f" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="d188-a6df-26b9-e7b8" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -1960,7 +1960,7 @@
             <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b0c4-eb7c-3d82-7ea4" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="b0c4-eb7c-3d82-7ea4" name="Magic items" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4846-f599-39e3-1fe3" type="max"/>
           </constraints>
@@ -2290,7 +2290,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2e2e-f65b-1341-47f9" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="7303-f945-df41-d6f8" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="7303-f945-df41-d6f8" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
         <categoryLink id="0721-ab49-a27c-a7ae" name="Orc" hidden="false" targetId="d4a7-5999-8207-4efe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2432,7 +2432,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9d09-53e1-185b-91cd" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="023c-3ec9-e99d-d6d0" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="023c-3ec9-e99d-d6d0" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
         <categoryLink id="e850-981c-a61e-1031" name="Orc" hidden="false" targetId="d4a7-5999-8207-4efe" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -2550,8 +2550,8 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d3da-2258-2ba7-c4c9" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="5b64-a7aa-e6a3-a513" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
-        <categoryLink id="bd54-fe1a-3f12-a03d" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="5b64-a7aa-e6a3-a513" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="bd54-fe1a-3f12-a03d" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="545f-c1ec-128c-8228" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2718,8 +2718,8 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="59ae-3957-3bc2-0c5e" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="bc07-6cef-5357-20c4" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
-        <categoryLink id="2221-b1e4-e8c2-0277" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="bc07-6cef-5357-20c4" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="2221-b1e4-e8c2-0277" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="481d-28d5-af5b-42d1" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2855,7 +2855,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="075e-8b67-0307-b80e" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="f0ad-4a52-bffa-3656" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="f0ad-4a52-bffa-3656" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b509-b625-26ae-238c" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2985,7 +2985,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2515-6677-8576-a786" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="85a7-4c36-e807-42e0" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="85a7-4c36-e807-42e0" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9101-cdd1-5d38-0a7c" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -3072,7 +3072,7 @@
         <infoLink id="0887-d37c-bd3a-f35d" name="Orc basic" hidden="false" targetId="ca58-3c0f-8e25-c7ec" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c1d9-467b-ff0a-8d91" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="c1d9-467b-ff0a-8d91" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="61ca-d64b-4a52-c623" name="Orc boyz" hidden="false" targetId="344f-77ef-7238-f157" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3243,7 +3243,7 @@
         <infoLink id="d057-4ea1-3996-2c99" name="Animosity" hidden="false" targetId="23f9-c5d1-7c15-0c4c" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="293f-b57b-626c-deeb" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="293f-b57b-626c-deeb" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6ae1-9de2-e694-a956" name="Orc Arrer Boyz" hidden="false" collective="false" import="true" type="model">
@@ -3373,7 +3373,7 @@
         <infoLink id="fdf3-771f-073a-a360" name="Frenzy: Savage Orcs " hidden="false" targetId="01cc-ed1b-58ba-0cd6" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="da4f-69bc-0ba3-4793" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="da4f-69bc-0ba3-4793" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
         <categoryLink id="c265-c2bb-d941-3485" name="Savage Boyz" hidden="false" targetId="5e83-d646-097c-dbee" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -3848,7 +3848,7 @@
         <infoLink id="6669-1f3f-7616-8f3b" name="Nobody Cares" hidden="false" targetId="fb92-f585-e69f-22b1" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f21c-82d1-bab4-6687" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="f21c-82d1-bab4-6687" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="ea1c-9575-6b52-c3d5" name="Snotling base" hidden="false" collective="false" import="true" type="model">
@@ -3894,7 +3894,7 @@
         <infoLink id="e66c-d8ce-bd07-d26a" name="Choppa" hidden="false" targetId="ab83-3475-b1c7-aafa" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="c528-c86c-d11a-d5d9" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="c528-c86c-d11a-d5d9" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="abf1-9e3c-5717-0362" name="Black Orcs" hidden="false" collective="false" import="true" type="model">
@@ -4080,7 +4080,7 @@
         <infoLink id="6c95-779e-548f-806c" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="ad1f-d760-7e9b-7f18" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="ad1f-d760-7e9b-7f18" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="d21f-f0d2-b71b-2371" name="Boar Boyz" hidden="false" targetId="375d-151a-4ba1-a4e6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -4208,7 +4208,7 @@
         <infoLink id="7d25-db86-a408-b8a1" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="731e-53cc-c5d4-f36e" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="731e-53cc-c5d4-f36e" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
         <categoryLink id="9230-5df1-697d-62fa" name="Savage boar Boyz" hidden="false" targetId="39c9-363a-dd54-8a84" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -4326,8 +4326,8 @@
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fb1-228b-c0ea-97d5" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="f92e-c8ab-7747-19ae" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
-        <categoryLink id="3a58-8faf-7ca3-23dc" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
+        <categoryLink id="f92e-c8ab-7747-19ae" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="3a58-8faf-7ca3-23dc" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c4bf-17c2-eac0-2d3d" name="Herd" hidden="false" collective="false" import="true">
@@ -4394,7 +4394,7 @@
         <infoLink id="741d-3032-bd61-4e10" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4a4a-b77c-e895-0f6c" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="4a4a-b77c-e895-0f6c" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="29ae-542a-a624-a552" name="Orc Chariot" hidden="false" collective="false" import="true" type="model">
@@ -4473,7 +4473,7 @@
         <infoLink id="ec1d-ef98-9132-fa47" name="Rock Lobbers" hidden="false" targetId="fdcf-4224-dad8-7a8d" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7d32-0d14-f094-0fa9" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="7d32-0d14-f094-0fa9" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fbb6-ee35-9742-1771" name="Rock Lobba" hidden="false" collective="false" import="true" type="model">
@@ -4599,7 +4599,7 @@
         <infoLink id="949a-6c37-6e20-0a6f" name="Regeneration" hidden="false" targetId="59c1-8a35-5a25-ebe1" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d16e-8aaa-cf19-8935" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="d16e-8aaa-cf19-8935" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9579-636d-0957-566e" name="Trolls" hidden="false" collective="false" import="true" type="model">
@@ -4677,7 +4677,7 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="435d-e998-d74e-3f13" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="435d-e998-d74e-3f13" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1553-549e-79a1-87b8" name="Pump Wagon" hidden="false" collective="false" import="true" type="model">
@@ -4762,7 +4762,7 @@
         <infoLink id="8765-359c-4cfa-63c6" name="Giant" hidden="false" targetId="52b0-1b66-112b-941d" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="67ee-b663-ba6f-f77c" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="67ee-b663-ba6f-f77c" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="205.0"/>
@@ -4772,7 +4772,7 @@
     </selectionEntry>
     <selectionEntry id="a52e-7334-4779-acc4" name="Dogs of War" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="665a-aadb-d757-9999" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="665a-aadb-d757-9999" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -4785,7 +4785,7 @@
         <infoLink id="1064-4c5f-4ebf-cc98" name="Doom Diver Catapult" hidden="false" targetId="4c5c-8b37-197f-7918" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="80e1-7749-449e-8e47" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="80e1-7749-449e-8e47" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="187e-5326-24fd-1939" name="Doom Diver Catapult" hidden="false" collective="false" import="true" type="model">
@@ -4899,7 +4899,7 @@
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13c9-9083-7fe4-c51e" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="0cb5-c3e9-1200-1d41" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="0cb5-c3e9-1200-1d41" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1806-c3a4-bbf9-9dc1" name="Goblin Spear Chukka" hidden="false" collective="false" import="true" type="model">
@@ -4911,7 +4911,7 @@
             <infoLink id="4093-4756-bb28-297b" name="Spear Chukkas" hidden="false" targetId="e739-7355-483b-81e0" type="rule"/>
           </infoLinks>
           <categoryLinks>
-            <categoryLink id="f9d5-021c-630a-190c" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+            <categoryLink id="f9d5-021c-630a-190c" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
           </categoryLinks>
           <selectionEntries>
             <selectionEntry id="bb1b-7773-042c-2c29" name="Spear Chukka" hidden="false" collective="false" import="true" type="model">
@@ -5058,7 +5058,7 @@
         <infoLink id="bf6c-9ff2-ec8f-ac76" name="Stupidity" hidden="false" targetId="5d6f-7b4d-6093-4922" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5feb-bdfe-2887-0312" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="5feb-bdfe-2887-0312" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="df29-1982-ca2a-4064" name="Goblin Wolf chariot" hidden="false" collective="false" import="true" type="unit">
@@ -5178,7 +5178,7 @@
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186c-6345-5b25-5aa2" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="ba88-49bd-cb48-e5cb" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="ba88-49bd-cb48-e5cb" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c392-1399-0baa-b41c" name="Night or common" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e43-4327-5b45-6e19">
@@ -5390,7 +5390,7 @@
                     <cost name=" Dispel Dice" typeId="6001-b2bf-4529-c07d" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="8949-beee-f095-517b" name="Magic" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="8949-beee-f095-517b" name="Magic items" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62d9-fa0f-5dd1-6d65" type="max"/>
                   </constraints>
@@ -5549,7 +5549,7 @@
         <infoLink id="d0f5-c227-9bef-96f8" name="Tuskar Charge" hidden="false" targetId="2761-5d2d-c41a-c536" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="79a3-4806-9505-eb62" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="79a3-4806-9505-eb62" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3e79-d7fd-c555-56ea" name="Orc Boar Boyz" hidden="false" collective="false" import="true" type="model">
@@ -5677,7 +5677,7 @@
         <infoLink id="6c35-7f29-5072-5bf4" name="Orc Big Uns" hidden="false" targetId="25cf-7a47-8e60-e1d9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="1f37-c820-c986-ba41" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="1f37-c820-c986-ba41" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0d44-66f5-eae1-bb16" name="Big &apos;Uns" hidden="false" collective="false" import="true" type="model">
@@ -5855,7 +5855,7 @@
         <infoLink id="c148-ee33-8ab5-f9c4" name="Boar" hidden="false" targetId="de91-b5e9-a96d-1f5a" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e51a-66b2-3674-59de" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="e51a-66b2-3674-59de" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="dfed-1871-769e-437e" name="Savage Orc Big &apos;Un  Boar Boyz" hidden="false" collective="false" import="true" type="model">
@@ -5992,7 +5992,7 @@
         <infoLink id="e3fe-c189-10a4-404c" name="Frenzy: Savage Orcs " hidden="false" targetId="01cc-ed1b-58ba-0cd6" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="f4b8-cccb-7be7-d9d9" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="f4b8-cccb-7be7-d9d9" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2af6-91f6-008a-51e1" name="Savage Orc Big &apos;Uns" hidden="false" collective="false" import="true" type="model">
@@ -6175,7 +6175,7 @@
         <infoLink id="4f1d-3809-9fd1-0bcd" name="Stone Troll" hidden="false" targetId="7269-569c-4948-9b04" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8578-8e9a-f4e7-6cfc" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="8578-8e9a-f4e7-6cfc" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f559-032b-c545-f727" name="Trolls" hidden="false" collective="false" import="true" type="model">
