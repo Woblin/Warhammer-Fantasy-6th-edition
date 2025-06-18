@@ -9,7 +9,7 @@
         <infoLink id="4e42-567e-9dac-a2d6" name="Dwarf Warrior" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2869-0911-80bf-463b" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="2869-0911-80bf-463b" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="0049-f09a-8a50-c12f" name="Dwarf Warrior" hidden="false" collective="false" import="true" type="model">
@@ -136,7 +136,7 @@
         <infoLink id="c739-8fc4-fe4c-8601" name="Dwarf Lord" hidden="false" targetId="e1c0-c508-7a93-bf91" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4bcf-f31e-ee73-bd99" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="4bcf-f31e-ee73-bd99" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="a683-c001-f382-af4b" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -238,8 +238,11 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1054-de9c-9038-ecd1" name="Rune Lord" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="bc40-ca0c-45e3-a8c0" name="Rune Lord" hidden="false" targetId="fb92-272e-1f9c-28ac" type="profile"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="e7a7-a504-6fb3-6b7c" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="e7a7-a504-6fb3-6b7c" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="1d4f-21c5-d0a7-3666" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -309,6 +312,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
+        <entryLink id="2333-7101-42c8-b0ed" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ca-c903-1fff-7404" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d8-4c6d-7ebe-0ae4" type="min"/>
+          </constraints>
+        </entryLink>
         <entryLink id="0f2f-56a0-1d1e-7d63" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed1e-1f12-a55e-b590" type="max"/>
@@ -340,7 +349,7 @@
         <infoLink id="f61e-a7a2-8d2c-08e8" name="Unbreakable" hidden="false" targetId="8ae3-9724-980f-7308" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="72bd-3ccb-1001-5617" name="New CategoryLink" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
+        <categoryLink id="72bd-3ccb-1001-5617" name="Lord" hidden="false" targetId="d024-d25b-a9b4-73b6" primary="true"/>
         <categoryLink id="3955-11cc-f2c1-eafa" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -394,8 +403,8 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2942-82b3-a0e6-c476" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="7008-9cc8-f8e9-1155" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
-        <categoryLink id="4e64-ef8c-d887-379f" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="7008-9cc8-f8e9-1155" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="4e64-ef8c-d887-379f" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="fcda-5e15-712f-f6ac" name="Additional Weapons" hidden="false" collective="false" import="true">
@@ -501,11 +510,26 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ae11-5c38-0585-ce6c" name="Rune Smith" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="6a7d-1457-4b07-8719" name="Rune Smith" hidden="false" targetId="c16d-8f63-4d0d-b5e8" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="97bd-49ac-95df-2a69" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="b8c8-4224-26bc-8d5c" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="b8c8-4224-26bc-8d5c" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
+        <selectionEntryGroup id="4537-4f12-46af-ba9e" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e94-3377-43be-91fe" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="aafa-7126-4442-ad6c" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
         <selectionEntryGroup id="788b-4410-c80d-a683" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea42-8674-3f8c-528b" type="max"/>
@@ -545,6 +569,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
+        <entryLink id="5731-fa72-4a96-9861" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="abdb-bbd0-41b2-5dff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ca-c903-1fff-7404" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d8-4c6d-7ebe-0ae4" type="min"/>
+          </constraints>
+        </entryLink>
         <entryLink id="1b27-b8eb-84d8-45e4" name="Shield" hidden="false" collective="false" import="true" targetId="50e2-1873-a856-03e7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad0-2775-2128-6a71" type="max"/>
@@ -581,8 +611,8 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="660e-3769-cd54-f818" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="5339-56ba-3f0a-814a" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
-        <categoryLink id="4852-f97c-6cb8-b060" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
+        <categoryLink id="5339-56ba-3f0a-814a" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="4852-f97c-6cb8-b060" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3d0c-8f51-6935-f969" name="Weapons" hidden="false" collective="false" import="true">
@@ -698,7 +728,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b111-9f98-40bf-73e4" name="Characters" hidden="false" targetId="7a1c-d611-c2dc-def1" primary="false"/>
-        <categoryLink id="215f-18c1-8f24-3d26" name="New CategoryLink" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
+        <categoryLink id="215f-18c1-8f24-3d26" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="495c-02e1-bd79-87ee" name="Weapons" hidden="false" collective="false" import="true">
@@ -750,7 +780,7 @@
         <infoLink id="2ff4-caaf-c210-e3de" name="Crossbowmen" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9e9f-7586-a918-f563" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="9e9f-7586-a918-f563" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e866-3017-f7fb-20f8" name="Dwarf Crossbowmen" hidden="false" collective="false" import="true" type="model">
@@ -859,7 +889,7 @@
         <infoLink id="bc15-1c81-06a3-4a97" name="Dwarf Warrior" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="7b8f-1cfd-7cf0-5b9b" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="7b8f-1cfd-7cf0-5b9b" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d953-99d2-391b-805e" name="Thunderer" hidden="false" collective="false" import="true" type="model">
@@ -984,7 +1014,7 @@
         <infoLink id="7f7a-1ad4-3948-28e2" name="Underground Advance" hidden="false" targetId="a580-3877-eabc-e9db" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="614e-2fba-c8d1-7dfc" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="614e-2fba-c8d1-7dfc" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9fdf-6e22-2610-18cd" name="Miner" hidden="false" collective="false" import="true" type="model">
@@ -1085,7 +1115,7 @@
         <infoLink id="07ad-b566-bbd9-77e7" name="Scouts" hidden="false" targetId="889c-dfc3-95a5-2d30" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5f7b-a237-559f-5751" name="New CategoryLink" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
+        <categoryLink id="5f7b-a237-559f-5751" name="Core" hidden="false" targetId="64bf-efb4-9978-26df" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="afcf-f33f-9f9f-dc4c" name="Ranger" hidden="false" collective="false" import="true" type="model">
@@ -1214,7 +1244,7 @@
         <infoLink id="be03-7a04-f8d1-522e" name="Bodyguard" hidden="false" targetId="5bdc-3b63-a913-2c0a" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="77f6-ce87-8764-e9fb" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="77f6-ce87-8764-e9fb" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="650b-1298-51fe-7dc6" name="Hammereres" hidden="false" collective="false" import="true" type="model">
@@ -1331,7 +1361,7 @@
         <infoLink id="6124-cb2b-5047-9256" name="Immune to panic" hidden="false" targetId="e258-aa45-975c-6184" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="b5b7-3479-1f4e-0751" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="b5b7-3479-1f4e-0751" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="18dc-a8c0-26a4-c5a7" name="Longbeards" hidden="false" collective="false" import="true" type="model">
@@ -1441,7 +1471,7 @@
         <infoLink id="097a-e3a2-f0a3-df4c" name="Ironbreakers" hidden="false" targetId="ee95-5f34-1b74-72d3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d869-48ce-0374-9a20" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="d869-48ce-0374-9a20" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b13b-a8ad-4294-b412" name="Ironbreakers" hidden="false" collective="false" import="true" type="model">
@@ -1577,8 +1607,8 @@
         <infoLink id="7ab4-b828-0582-0b4f" name="Slayer" hidden="false" targetId="a55d-16f1-2e62-2725" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0e7b-b2b5-63c4-8b57" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
-        <categoryLink id="7ee9-f82c-aa46-7c3f" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
+        <categoryLink id="0e7b-b2b5-63c4-8b57" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="7ee9-f82c-aa46-7c3f" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="2029-4aae-90ac-e854" name="Command" hidden="false" collective="false" import="true">
@@ -1640,7 +1670,7 @@
         <infoLink id="ff01-e662-db31-f52d" name="Crew" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bb30-02aa-8c37-cf19" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="bb30-02aa-8c37-cf19" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="691a-2edc-d43f-f1b2" name="Crew" hidden="false" collective="false" import="true" type="model">
@@ -1681,7 +1711,7 @@
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8af-588d-91f7-e405" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="720a-2918-01b9-ac45" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="720a-2918-01b9-ac45" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="8592-9f35-559a-a818" name="Bolt Thrower" hidden="false" collective="false" import="true" type="model">
@@ -1742,7 +1772,7 @@
         <infoLink id="98f5-c77d-cc12-a905" name="Crew" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2b88-2ec4-21db-74c1" name="New CategoryLink" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
+        <categoryLink id="2b88-2ec4-21db-74c1" name="Special" hidden="false" targetId="43cc-fc3f-35a7-8d03" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="3844-370a-3563-df36" name="Crew" hidden="false" collective="false" import="true" type="model">
@@ -1853,7 +1883,7 @@
         <infoLink id="5c9e-f3fa-a8f1-85ad" name="Fly" hidden="false" targetId="e930-0b71-2fef-3937" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="db31-c063-41d7-7678" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="db31-c063-41d7-7678" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1de8-3f05-0bf9-0943" name="Armour Save:4+" hidden="false" collective="false" import="true" type="upgrade">
@@ -1891,7 +1921,7 @@
         <infoLink id="5868-3103-9a4f-8eb0" name="Crew" hidden="false" targetId="1120-096a-0960-d7f9" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="fec0-01f5-7eaf-67e2" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="fec0-01f5-7eaf-67e2" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="575a-a31f-5a44-150f" name="Crew" hidden="false" collective="false" import="true" type="model">
@@ -1929,7 +1959,7 @@
     </selectionEntry>
     <selectionEntry id="b719-7ef9-a9df-3fe3" name="Dogs Of War" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="e511-f083-4f6b-ad2f" name="New CategoryLink" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
+        <categoryLink id="e511-f083-4f6b-ad2f" name="Rare" hidden="false" targetId="e94b-6a54-8779-cd60" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="0.0"/>
@@ -3425,7 +3455,7 @@ Dwarf Hanguns get a +1 to hit at short range</characteristic>
         <characteristic name="Special rules" typeId="42c3-68ab-cfa5-203e"/>
       </characteristics>
     </profile>
-    <profile id="fb92-272e-1f9c-28ac" name="Rune lord" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+    <profile id="fb92-272e-1f9c-28ac" name="Rune Lord" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">6</characteristic>
@@ -3452,6 +3482,19 @@ Dwarf Hanguns get a +1 to hit at short range</characteristic>
       </characteristics>
     </profile>
     <profile id="001c-14b6-d5a7-bfec" name="Engineer" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
+      <characteristics>
+        <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
+        <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
+        <characteristic name="BS" typeId="4a8b-0c8e-3daf-7901">4</characteristic>
+        <characteristic name="S" typeId="b690-4bc0-bb73-267b">3</characteristic>
+        <characteristic name="T" typeId="8712-f56f-5b22-a720">4</characteristic>
+        <characteristic name="W" typeId="253a-9b00-4fde-8ac2">2</characteristic>
+        <characteristic name="I" typeId="dfff-363e-f72a-5a59">2</characteristic>
+        <characteristic name="A" typeId="6b9f-c8fe-8998-27e3">1</characteristic>
+        <characteristic name="Ld" typeId="2d45-18fe-9eb3-b113">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c16d-8f63-4d0d-b5e8" name="Rune Smith" hidden="false" typeId="a54a-7f00-29bf-12b1" typeName="Profile">
       <characteristics>
         <characteristic name="Mv" typeId="0e92-d038-82bf-fb41">3</characteristic>
         <characteristic name="WS" typeId="f95b-da01-0578-3bdc">4</characteristic>
