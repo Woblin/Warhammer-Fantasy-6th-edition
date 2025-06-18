@@ -1,0 +1,17 @@
+{
+  "name": "robins-warhammer-fantasy-6th-edition",
+  "version": "1.0.0",
+  "description": "Warhammer Fantasy Battle 6th edition Battlescribe files, just like it says, plus a local server to test them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "node prepare_cat_files.js",
+    "start": "npm run prepare && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^5.1.0"
+  }
+}
