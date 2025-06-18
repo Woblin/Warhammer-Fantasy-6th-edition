@@ -518,18 +518,6 @@
         <categoryLink id="b8c8-4224-26bc-8d5c" name="Heroes" hidden="false" targetId="c16b-f319-2c62-2c12" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4537-4f12-46af-ba9e" name="Additional Weapons" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e94-3377-43be-91fe" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="aafa-7126-4442-ad6c" name="Great Weapon" hidden="false" collective="false" import="true" targetId="1eb7-3f36-8cf7-e0ba" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="ecfa-8486-4f6c-c249" value="4.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="788b-4410-c80d-a683" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea42-8674-3f8c-528b" type="max"/>
