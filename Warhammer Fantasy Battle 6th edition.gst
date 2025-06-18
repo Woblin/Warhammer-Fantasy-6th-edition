@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="6d8e-38d9-3c69-febf" name="Warhammer Fantasy Battle 6th edition" revision="8" battleScribeVersion="2.03" authorName="Ergo Fargo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="6d8e-38d9-3c69-febf" name="Robins Warhammer Fantasy Battle 6th edition" revision="8" battleScribeVersion="2.03" authorName="Ergo Fargo" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="315e-e3c4-08af-fd51" name="BRB"/>
   </publications>
